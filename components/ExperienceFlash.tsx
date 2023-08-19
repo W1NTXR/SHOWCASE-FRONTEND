@@ -30,14 +30,28 @@ export default function ExperienceFlash({}: Props) {
             <div className="flex space-x-2 my-2">
                 <img className="h-10 w-10 rounded-full"
                 src="https://angular.io/assets/images/logos/angular/angular.svg" />
+                <img className="h-10 w-10 rounded-full"
+                src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png" />
+                <img className="h-10 w-10 rounded-full"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQegowPDKqrJzjjfqfoFznZnVrzdq9uNE6g71NrtBT6R5GBXHvmK4qtr9KF78wB4psgejg&usqp=CAU" />
+                <img className="h-10 w-10 rounded-full"
+                src="https://w7.pngwing.com/pngs/578/816/png-transparent-java-class-file-java-platform-standard-edition-java-development-kit-java-runtime-environment-coffee-jar-text-class-orange-thumbnail.png" />
             </div>
             <p>December,2022 - February,2023</p>
             <ul className="list-disc space-y-4 ml-5 text-lg">
-                <li>test</li>
-                <li>test</li>
-                <li>test</li>
-                <li>test</li>
-                <li>test</li>
+                <li>Developed an e-commerce website for a client,resulting in increase in online
+sales and improved customer satisfaction</li>
+                <li>Implemented Angular to design and develop the frontend,resulting in a
+responsive and user-friendly interface, leading to a 25% decrease in bounce
+rate and increased customer engagement
+</li>
+                <li>Successfully implemented CRUD functionalities, enabling the client to manage
+and update products,resulting in a 50% reduction in time spent on
+administrative tasks.</li>
+                <li>Received positive client feedback, with a satisfaction rating of 95%, for
+delivering a high-quality, feature-rich website within the agreed-upon
+timeframe and budget
+</li>
             </ul>
         </div>
     </article>
