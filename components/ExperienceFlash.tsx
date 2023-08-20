@@ -4,7 +4,7 @@ type Props = {}
 
 export default function ExperienceFlash({}: Props) {
   return (
-    <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
+    <article className="flex flex-col rounded-lg items-center space-y-4 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
         <motion.img
             initial={{
                 y:-100,
@@ -37,8 +37,8 @@ export default function ExperienceFlash({}: Props) {
                 <img className="h-10 w-10 rounded-full"
                 src="https://w7.pngwing.com/pngs/578/816/png-transparent-java-class-file-java-platform-standard-edition-java-development-kit-java-runtime-environment-coffee-jar-text-class-orange-thumbnail.png" />
             </div>
-            <p>December,2022 - February,2023</p>
-            <ul className="list-disc space-y-4 ml-5 text-lg">
+            <p className="py-5 text-gray-300">December,2022 - February,2023</p>
+            <ul className="list-disc space-y-4 ml-5 text-xs">
                 <li>Developed an e-commerce website for a client,resulting in increase in online
 sales and improved customer satisfaction</li>
                 <li>Implemented Angular to design and develop the frontend,resulting in a

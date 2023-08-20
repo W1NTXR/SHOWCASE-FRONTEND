@@ -1,6 +1,16 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 import Skill from './Skill'
+import Cpp from './skillStuff/Cpp'
+import Nextjs from './skillStuff/Nextjs'
+import Angular from './skillStuff/Angular'
+import Java from './skillStuff/Java'
+import Rct from './skillStuff/Rct'
+import Nde from './skillStuff/Nde'
+import Pthn from './skillStuff/Pthn'
+import Spring from './skillStuff/Spring'
+import Csharp from './skillStuff/Csharp'
+
 
 type Props = {}
 
@@ -12,16 +22,15 @@ const Skills = (props: Props) => {
         <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">Hover over a skill for current proficiency</h3>
         
         <motion.div className="grid grid-cols-4 gap-5">
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
+            <Cpp/>
+            <Nextjs/>
+            <Angular/>
+            <Java/>
+            <Rct/>
+            <Pthn/>
+            <Spring/>
+            <Csharp/>
+            
             
         </motion.div>
 
